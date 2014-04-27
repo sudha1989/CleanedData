@@ -2,7 +2,6 @@
 
 testData <- read.table("./UCI HAR Dataset/test/X_test.txt", header=F)
 testActivity <- read.table("./UCI HAR Dataset/test/y_test.txt", header=F)
-run_analysis <- function () {
 testSubject <- read.table("./UCI HAR Dataset/test/subject_test.txt", header=F)
 
 ## reading the train data, activity and subject identifier
